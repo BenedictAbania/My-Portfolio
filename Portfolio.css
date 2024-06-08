@@ -1,0 +1,312 @@
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: url(Images/backg.gif) no-repeat center center fixed;
+    background-size: cover;
+    max-width: 100%;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 0;
+}
+
+header #logo {
+    margin-left: 100px;
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+header #logo:hover {
+    color: #63d4d5;
+    transform: scale(1.2);
+}
+
+header #logo span {
+    font-size: medium;
+    font-weight: lighter;
+    color: #63d4d5;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin-right: 100px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    color: white;
+    transition: transform 0.5s ease;
+}
+
+nav ul li a:hover {
+    color: #63d4d5;
+    transform: scale(1.2);
+}
+
+#homepage {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 30px;
+}
+
+.introduction {
+    max-width: 500px;
+}
+
+.introduction h2 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.introduction h2 span {
+    color: #63d4d5;
+}
+
+.introduction p {
+    font-size: 24px;
+    margin-bottom: 30px;
+    color: white;
+    margin-top: 0px;
+}
+
+.introduction p span {
+    color: #63d4d5;
+}
+
+#Abtbtn {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s;
+}
+
+#Abtbtn:hover {
+    background: #63d4d5;
+    color: black;
+}
+
+.socmed {
+    margin-top: 30px;
+}
+
+.socmed a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socmed img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.5s ease;
+}
+
+.socmed img:hover {
+    transform: scale(1.2);
+}
+
+.Profile {
+    margin-top: 20px;
+}
+
+.Profile img {
+    height: 300px;
+    max-width: 300px;
+    border-radius: 20px;
+    border: solid;
+    border-color: white;
+    border-width: 5px;
+    display: flex;
+    align-items: center;
+    border-color: #63d4d5;
+    transition: transform 0.5s ease;
+}
+
+.Profile img:hover {
+    transform: scale(1.1);
+}
+
+
+
+#aboutMain {
+    margin: 100px;
+    margin-top: 50px;
+}
+
+
+#Main h4 {
+    color: white;
+    font-size: x-large;
+}
+
+#Main h4 span {
+    color: #63d4d5;
+}
+
+#Main p {
+    color: white;
+    text-align: justify;
+}
+
+#Main p span {
+    color: #63d4d5;
+}
+
+#Main #MISVIS p{
+    text-align: center;
+}
+
+#Main #MISVIS h4{
+    color: #63d4d5;
+    text-align: center;
+}
+
+#Main #MISVIS ul {
+    text-align: center;
+    color: white;
+    list-style: none;
+}
+
+
+.educ {
+    color: white;
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.educ h4 {
+    color: white;
+}
+
+.educ table {
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    border-style: dashed;
+    border-color: white;
+}
+
+.educ tr {
+    text-align: center;
+    height: 70px;
+}
+
+.educ tr th {
+    color: #63d4d5;
+}
+
+
+
+
+.cont {
+    margin: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.cont h4 {
+    color: white;
+}
+
+.cont table {
+    height: auto;
+    width: 100%;
+    border-radius: 8px;
+    border-style: dashed;
+    border-color: white;
+}
+
+.cont img {
+    width: 300px;
+    height: 310px;
+    transition: transform 0.5s ease;
+}
+
+.cont img:hover {
+    transform: scale(1.1);
+}
+
+.cont tr {
+    align-content: center;
+    text-align: center;
+}
+
+.cont tr a {
+    text-decoration: none;
+    color: #63d4d5;
+}
+
+.cont th {
+    color: white;
+}
+
+.cont td {
+    color: white;
+}
+
+.cont .socmed {
+    margin-top: 30px;
+    text-align: center  ;
+}
+
+.socmed a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.socmed img {
+    width: 30px;
+    height: 30px;
+    transition: transform 0.5s ease;
+}
+
+.socmed img:hover {
+    transform: scale(1.2);
+}
+
+.educ #prelim table {
+    text-align: center;
+}
+
+.educ #prelim table img {
+    width: 300px;
+    margin: 10px;
+}
+
+.educ #midterm table img {
+    width: 300px;
+    margin: 10px;
+    margin-right: 30px;
+}
+
+.educ #finals table img {
+    width: 300px;
+    margin: 10px;
+}
+
+
+
+@media (max-width:720px) {
+    .header {
+        max-width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+}
